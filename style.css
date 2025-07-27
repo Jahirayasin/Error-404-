@@ -37,17 +37,19 @@
   right: 20px;
   background: #1b1f23;
   color: #fff;
-  padding: 10px 15px;
-  border-radius: 10px;
+  padding: 15px 25px; /* Bigger padding */
+  border-radius: 12px;
   text-decoration: none;
   font-family: sans-serif;
-  font-size: 14px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  font-size: 16px; /* Bigger font size */
+  font-weight: bold; /* Makes text bolder */
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
   transition: 0.3s ease;
   z-index: 999;
 }
 
 .code-button:hover {
   background-color: #2ea44f;
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
+
